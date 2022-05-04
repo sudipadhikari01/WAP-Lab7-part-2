@@ -1,0 +1,66 @@
+.head-container{
+    width: 100%;
+    display: grid;
+   grid-template-rows:60px;
+    grid-template-columns: 2fr 1fr 2fr 0.5fr 1fr;
+    background-color: blue;
+    color:white;
+    align-items: center;
+}
+
+div{
+    padding: 5px;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.form-container{
+    height: auto;
+    width: 90%;
+    margin:auto 10px;
+}
+/* h2{
+margin-left: 30px;
+} */
+
+#product-form{
+    display: grid;
+    grid-auto-rows:  40px ;
+    grid-template-columns: 120px 1fr 120px 1fr;
+    gap:20px;
+}
+
+.button{
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 100px 100px 100px;
+    gap:40px;
+    /* justify-content: start; */
+    /* align-items: end; */
+    align-items: flex-end;
+
+}
+
+.reset-btn{
+    background-color: azure;
+    width: 80px;
+    grid-column: 3/4;
+}
+
+.cancel-btn{
+    background-color: bisque;
+    width: 80px;
+    grid-column: 4/5;
+}
+
+.add-btn{
+    background-color: rgb(172, 127, 67);
+    width: 100px;
+    grid-column: 5/6;
+}
+

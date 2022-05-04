@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web form html</title>
+    <link rel="stylesheet" href="webform2.css" />
+  </head>
+  <body>
+    <div class="head-container">
+      <div><a href="">MIU Golden Dome Market:::SRM System</a></div>
+      <div class="product"><a href="">Products</a></div>
+      <div class="supplier"><a href="">Suppliers</a></div>
+      <div class="hello">Hello!</div>
+      <div><button type="button">Sign Out</button></div>
+    </div>
+
+    <div class="form-container">
+      <h2>New Product form</h2>
+      <form action="" id="product-form">
+        <label for="Product Number" class="product-number">Product Number</label>
+        <input id="productNumber" type="text" />
+
+        <label for="stock" class="last-name">Quantity in stock</label>
+        <input id="stock" type="text" />
+
+        <label for="Name" class="name"> Name</label>
+        <input id="name" type="text" />
+
+        <label for="supplier" class="supplier">Select Supplier</label>
+        <select name="cars" id="cars">
+            <option value="" selected>Select Supplier</option>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+
+        <label for="firstName" class="first-name">Unit Price</label>
+        <input id="price" type="text" value="0.0" />
+
+        <label for="lastName" class="last-name">Date Supplied</label>
+        <input id="dateSupplied" type="date" />
+        <div class="button">
+            <button class="reset-btn">Reset</button>
+            <button class="cancel-btn">Cancel</button>
+            <button class="add-btn">Add Product</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
